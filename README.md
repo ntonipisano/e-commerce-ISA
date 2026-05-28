@@ -37,7 +37,7 @@ DATABASE_URL=mysql+pymysql://root:LA_TUA_PASSWORD_DI_MYSQL@localhost:3306/ecomme
 
 ## 3. Installare le dipendenze
 
-Grazie a `uv`, puoi sincronizzare istantaneamente l'ambiente virtuale e installare tutte le librerie necessarie.
+Grazie a `uv`, puoi sincronizzare istantaneamente l'ambiente virtuale e installare tutte le librerie necessarie.  
 `uv` creerà automaticamente un ambiente virtuale locale (`.venv/`) in cui installerà tutte le dipendenze necessarie definite nel file `uv.lock`.
 
 ```bash
