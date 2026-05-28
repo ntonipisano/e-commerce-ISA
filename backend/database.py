@@ -1,6 +1,15 @@
 import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
+from dotenv import load_dotenv
+
+# Carica le variabili dal file .env
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not DATABASE_URL:
+    raise ValueError("ERRORE: La variabile DATABASE_URL non è impostata nel file .env!")
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL", 
