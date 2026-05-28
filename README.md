@@ -16,7 +16,7 @@ CREATE DATABASE ecommerce_isa;
 
 ```bash
 git clone https://github.com/ntonipisano/e-commerce-ISA.git
-cd progetto_ISA/backend
+cd e-commerce-ISA/backend
 ```
 
 ---
