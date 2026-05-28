@@ -1,0 +1,21 @@
+# === BACKEND (Python / UV) ===
+**/__pycache__/
+**/*.py[cod]
+**/build/
+**/dist/
+**/wheels/
+**/*.egg-info
+**/.venv/
+**/.pytest_cache/
+**/.hypothesis/
+
+# === FRONTEND (JavaScript / Node) ===
+**/node_modules/
+**/dist/
+**/.env*.local
+
+# === IDE & SISTEMA OPERATIVO ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
